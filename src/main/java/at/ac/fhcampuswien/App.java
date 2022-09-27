@@ -7,12 +7,14 @@ public class App {
     //todo Task 1
     public void sayHelloWorld(){
         // input your solution here
+    System.out.println("Task 1: Say Hello World!");
+
     }
 
     //todo Task 2
     public void helloRobot(){
         // input your solution here
-    }
+    System.out.println("Task 2: Hello Robot!");}
 
     //todo Task 3
     public void sumOfLiterals(){
