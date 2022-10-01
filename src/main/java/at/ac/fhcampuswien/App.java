@@ -7,18 +7,32 @@ public class App {
     //todo Task 1
     public void sayHelloWorld(){
         // input your solution here
-    System.out.println("Task 1: Say Hello World!");
+    System.out.println("Hello World!");
 
     }
 
     //todo Task 2
     public void helloRobot(){
         // input your solution here
-    System.out.println("Task 2: Hello Robot!");}
+    System.out.println("0123456789012345678901");
+    System.out.println("         __");
+    System.out.println(" _(\\    |@@|");
+    System.out.println("(__/\\__ \\--/ __");
+    System.out.println("   \\___|----|  |   __");
+    System.out.println("       \\ }{ /\\ )_ / _\\");
+    System.out.println("       /\\__/\\ \\__O (__");
+    System.out.println("      (--/\\--)    \\__/");
+    System.out.println("      _)(  )(_");
+    System.out.println("     `---''---`");
+
+
+    }
 
     //todo Task 3
     public void sumOfLiterals(){
         // input your solution here
+
+
     }
 
     //todo Task 4
