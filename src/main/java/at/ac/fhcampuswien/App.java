@@ -31,18 +31,51 @@ public class App {
     //todo Task 3
     public void sumOfLiterals(){
         // input your solution here
-
-
+    char uno = 'Z';
+    int dos = 0xface;
+    int tres = 012;
+    long cuatro = 80L;
+    float cinco = 44e-1f;
+    int five = (int)cinco; //44
+    float seis = 5.5f;
+    int six = (int)seis; //5
+    double siete = 8.88e1;
+    int seven = (int)siete; //8
+    double ocho = 99.9;
+    int eight = (int)ocho; //99
+    System.out.println(uno+dos+tres+cuatro+five+six+seven+eight);
     }
 
     //todo Task 4
     public void addTwoNumbers(){
         // input your solution here
+        Scanner scanner = new Scanner (System.in);
+
+        int one = 0;
+        int two = 0;
+        one = scanner.nextInt();
+        two = scanner.nextInt();
+        scanner.close();
+        System.out.println(one+two);
+
     }
 
     //todo Task 5
     public void swapTwoNumbers(){
         // input your solution here
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Before Swap:");
+        int one = 0;
+        int two = 0;
+        one = scanner.nextInt();
+        two = scanner.nextInt();
+        System.out.println("x: " +"y: "+"After Swap:");
+
+        System.out.println("x: " + two);
+        System.out.println("y: " + one);
+
+
+
     }
 
     //todo Task 6
@@ -68,6 +101,7 @@ public class App {
     //todo Task 10
     public void transposedNumbers(){
         // input your solution here
+
     }
 
 
