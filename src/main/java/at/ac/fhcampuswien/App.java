@@ -163,25 +163,39 @@ public class App {
         Scanner scanner = new Scanner(System.in);
         int year = scanner.nextInt();
         scanner.close();
-        if (year % 4 == 0){
+        if (year % 400 == 0){
             System.out.println("Year: " + "Leapyear");
-        }else if ((year % 100 == 0) ){
-            System.out.println("Year: " + "Not a Leapyear" );
-        } else if (year % 400 == 0){
-            System.out.println("Year: " + "Leapyear");
+        }
+        else if ((year % 100 != 0) && (year % 4 == 0)){
+            System.out.println("Year: " + "Leapyear" );
+        }
+        else {
+            System.out.println("Year: " + "Not a Leapyear");
+        }
         }
 
 
-    }
-
     //todo Task 10
-    public void transposedNumbers(){
+    public void transposedNumbers() {
         // input your solution here
         Scanner scanner = new Scanner(System.in);
+        int number = scanner.nextInt();
+        int reversed = 0;
+        while (number != 0) {
+            int result = number % 10;
+            reversed = reversed * 10 + result;
+            number /= 10;
+        }
 
+        System.out.println("Number: " + reversed);
+        scanner.close();
 
 
     }
+
+
+
+
 
 
     public static void main(String[] args){
