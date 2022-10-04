@@ -190,12 +190,7 @@ public class App {
         System.out.println("Number: " + reversed);
         scanner.close();
 
-
     }
-
-
-
-
 
 
     public static void main(String[] args){
